@@ -19,7 +19,7 @@ function ElevationScroll(props) {
     return (
         <div>
             <ElevationScroll>
-                <AppBar position="fixed">
+                <AppBar position="fixed" color= "primary">
                     <Toolbar>
                         Material UI
                     </Toolbar>

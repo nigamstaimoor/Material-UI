@@ -7,7 +7,7 @@ import Theme from "./ui/Theme";
 const App = () => {
   return (
     <div className="App">
-      <ThemeProvider>
+      <ThemeProvider theme={Theme}>
         <Header/>
         Hello!
       </ThemeProvider>
